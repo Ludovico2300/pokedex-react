@@ -1,0 +1,85 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#m-container {
+  display: flex;
+  flex-direction: row;
+  border: 5px solid black;
+  border-radius: 15%;
+  height: fit-content;
+  width: fit-content;
+  margin: 5px;
+}
+
+#sprite-container {
+  display: flex;
+  flex-direction: column;
+  height: 280px;
+  width: 200px;
+  align-items: center;
+}
+
+.pk-sprite {
+  height: 200px;
+  width: 200px;
+}
+
+#info-container {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: fit-content;
+}
+
+#btn-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#pokedex {
+  font-weight: bold;
+}
+
+.pk-name {
+  text-transform: capitalize;
+}
+
+#pokedex-label {
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 21px;
+  color: black;
+}
+
+button {
+  margin: 5px;
+  height: 30px;
+  width: fit-content;
+}
+
+.img-sprite-toshiny {
+  height: 80px;
+  width: 80px;
+}
+
+#pk-change {
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+}
+
+#lbl-input-id {
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
